@@ -1,0 +1,116 @@
+html{
+	height:100%;
+}
+
+body {
+	padding-top: 70px;
+	background:url('../img/teal_ritz.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100%;
+	width:100%;
+}
+
+.player{
+	height:100%;
+	margin:0 auto;
+	float:left;
+	position:relative;
+}
+
+.charity-widget{
+	display:none;
+	width:0px;
+	height:0px;
+	vertical-align: top;
+}
+
+.amount{
+	height:100%;
+	padding-top:7px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:rgb(119, 119, 119);
+	float:center;
+	text-align:center;
+	font-size:14pt;
+}
+
+div.amount{
+	width:250px;
+	margin-left:-59px;
+}
+
+button.amount{
+	width:125px;
+	margin-top:2%;
+}
+
+.top{
+	margin-left:25px;
+	margin-right:0px;
+	width: 95%;
+	max-height:42px;
+}
+
+.center {
+	width:50%;
+	margin: 0 auto;
+}
+
+.jumbotron{
+	position:relative;
+	height: 500px;
+	margin: 0 auto;
+	margin-bottom:-100px;
+	z-index:5;
+}
+
+.content{
+	padding-left:120px;
+	padding-right:120px;
+	padding-top:120px;
+	height:100%;
+	background-color: rgb(255, 255, 255);
+}
+
+.tab-corners{
+	border-bottom-right-radius: -8px;
+}
+
+.tab-content{
+	height:90%;
+	border-left:1px solid rgb(221, 221, 221);
+	border-right:1px solid rgb(221, 221, 221);
+	border-bottom:1px solid rgb(221, 221, 221);
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.tab-pane.active, .tab-pane.active * {
+	width:100%;
+	height:100%;
+}
+
+iframe {
+	border: 0px;
+}
+
+.donation-div{
+	font-size:14pt;
+	background-color: rgb(140, 5, 45);
+	z-index: 2; /* to ensure we can mouse over it */
+}
+
+.donation-div:hover, .donation-div:active{
+	background-color:rgb(235, 22, 85)
+}
+
+.donation-link{
+	color:rgb(255, 255, 255) !important;
+}
+
+.share-menu > li {
+	padding-left:5px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
